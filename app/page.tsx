@@ -217,6 +217,10 @@ export default function Home() {
                 <input name="phone" type="tel" autoComplete="tel" required />
               </label>
               <label>
+                Email
+                <input name="email" type="email" autoComplete="email" required />
+              </label>
+              <label>
                 Role
                 <select name="role" required defaultValue="">
                   <option value="" disabled>Select your role</option>
